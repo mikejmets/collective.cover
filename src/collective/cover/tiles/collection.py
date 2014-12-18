@@ -81,6 +81,11 @@ class ICollectionTile(IPersistentCoverTile):
         readonly=True,
     )
 
+    slidemode = schema.Bool(
+        title=_(u'Slideshow'),
+        required=False,
+    )
+
 
 class CollectionTile(PersistentCoverTile):
 
@@ -233,3 +238,6 @@ class CollectionTile(PersistentCoverTile):
 
     def show_footer(self):
         return self._field_is_visible('footer')
+
+    def is_slidemode(self):
+        return self.data.get('slidemode', False)
