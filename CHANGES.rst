@@ -6,8 +6,8 @@ There's a frood who really knows where his towel is.
 1.4b2 (unreleased)
 ^^^^^^^^^^^^^^^^^^
 
-- Nothing changed yet.
-
+- Convert data back to string when drop object with image (fixes `#637`_).
+  [rodfersou]
 
 1.4b1 (2016-12-14)
 ^^^^^^^^^^^^^^^^^^
@@ -167,6 +167,7 @@ Previous entries can be found in the HISTORY.rst file.
 .. _`#581`: https://github.com/collective/collective.cover/issues/581
 .. _`#584`: https://github.com/collective/collective.cover/issues/584
 .. _`#608`: https://github.com/collective/collective.cover/issues/608
+.. _`#637`: https://github.com/collective/collective.cover/issues/637
 .. _`#641`: https://github.com/collective/collective.cover/issues/641
 .. _`#651`: https://github.com/collective/collective.cover/issues/651
 .. _`#686`: https://github.com/collective/collective.cover/issues/686
