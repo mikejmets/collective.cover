@@ -93,13 +93,13 @@
         //export layout
         $('#btn-export').click(function() {
           if (!$(this).hasClass('disabled') && $('#btn-save').hasClass('saved')) {
-            $('#export-layout').modal();
+            $('#export-layout').removeClass('hide');
           }
         });
 
         $('#btn-cancel-export-layout').click(function(e) {
           e.preventDefault();
-          $('#export-layout').modal('hide');
+          $('#export-layout').addClass('hide');
         });
       },
 
